@@ -1,0 +1,131 @@
+{
+    "profiles": 
+    [
+        {
+            "id": 1,
+            "name": "Welersson Drumont Andrade",
+            "title": "Mestre Cuca",
+            "status": "Trabalhando",
+            "profilePic": "images/download.png"
+        }
+    ],
+    "chores": 
+    [
+        {
+            "userID": 1,
+            "id": 1,
+            "name": "Academia$",
+            "hour": "07:00%",
+            "place": "BodyFit: Coracao Eucaristico%",
+            "todo": 
+            [
+                {
+                    "id": 1,
+                    "info": "todo00",
+                    "isDone": false
+                },
+                {
+                    "id": 2,
+                    "info": "todo10",
+                    "isDone": false
+                },
+                {
+                    "id": 3,
+                    "info": "todo20",
+                    "isDone": false
+                },
+                {
+                    "id": 4,
+                    "info": "todo30",
+                    "isDone": false
+                }
+            ],
+            "isDone": false
+        },
+        {
+            "userID": 1,
+            "id": 2,
+            "name": "Trabalho$",
+            "hour": "10:00%",
+            "place": "Empresa%",
+            "isDone": false,
+            "todo": [
+                {
+                    "id": 1,
+                    "info": "todo01",
+                    "isDone": false
+                },
+                {
+                    "id": 2,
+                    "info": "todo11",
+                    "isDone": false
+                },
+                {
+                    "id": 3,
+                    "info": "todo21",
+                    "isDone": false
+                }
+            ]
+            
+        }
+        
+    ],
+
+    "tasks":
+    [
+        {
+            "id": 0,
+            "info":"Tomar cafe",
+            "isDone":false
+        },
+
+        {
+            "id": 1,
+            "info":"Tomar banho",
+            "isDone":false
+        },
+
+        {
+            "id": 0,
+            "info":"Ir pra academia",
+            "isDone":false
+        },
+
+        {
+            "id": 0,
+            "info":"Ir trabalhar",
+            "isDone":false
+        },
+
+        {
+            "id": 0,
+            "info":"Almocar com Amanda",
+            "isDone":false
+        },
+
+        {
+            "id": 0,
+            "info":"Reuniao com Paulo",
+            "isDone":false
+        },
+
+        {
+            "id": 0,
+            "info":"Cafe com Amanda",
+            "isDone":false
+        },
+
+        {
+            "id": 0,
+            "info":"Passar no mercado",
+            "isDone":false
+        },
+        
+        {
+            "id": 0,
+            "info":"Fazer jantar",
+            "isDone":false
+        }
+    ]
+}
+

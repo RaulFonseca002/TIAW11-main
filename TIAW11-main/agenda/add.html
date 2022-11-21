@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <Head>
+        <title>Sua Agenda</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./agenda.css">
+        <script type="module" src="agendaADD.js"></script>
+
+        
+    </Head>
+
+    <body>
+        
+
+        <div class="col-9 addChore">
+
+            <a href="agenda.html">
+                <button type="button" class="btn bntAddPage btn-outline-danger">
+                 Voltar
+                </button>
+           </a>
+           
+           <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nome da tarefa:</span>
+                <input type="text" class="form-control"  aria-label="chores.name" id="inputName">
+          </div>
+    
+          <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Horario de inicio:</span>
+                <input type="text" class="form-control"  aria-label="chores.hour" id="inputHour">
+          </div>
+    
+          <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Local:</span>
+                <input type="text" class="form-control"  aria-label="chores.name" id="inputLocal">
+          </div>
+    
+          <div class="input-group mb-3">
+            <span class="input-group-text">Detalhes: </span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="inputInfo">
+            <span class="input-group-text">
+                <button>+</button>
+            </span>
+          </div>
+
+            <button type="button" class="btn bntAddPageADD btn-outline-success" id="button">
+                +add
+            </button>     
+
+
+        </div>
+        
+
+    </body>
+
+</html>
